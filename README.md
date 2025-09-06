@@ -200,6 +200,9 @@ If you use this evaluation framework, please cite:
   url={https://github.com/your-org/chinese-llm-pragmatic-eval}
 }
 ```
+## Contact
+
+email: sharpksun@hotmail.com
 
 ## License
 
