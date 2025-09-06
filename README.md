@@ -32,23 +32,19 @@ chinese-llm-pragmatic-eval/
 ├── config.json.template
 ├── datasets/
 │   ├── euphemisms/
-│   │   ├── zh_eupm_dataset.csv
+│   │   ├── zh_eupm_dataset.txt
 │   │   └── metadata.json
 │   ├── sarcasm/
-│   │   ├── sarcasm_samples.json
+│   │   ├── zh_sarcasm_data.csv
 │   │   └── metadata.json
 │   └── idioms/
-│       ├── idiom_translation_pairs.json
+│       ├── zh_idiom_data.json
 │       └── metadata.json
 ├── evaluators/
 │   ├── base_evaluator.py
 │   ├── euphemism_evaluator.py
 │   ├── sarcasm_evaluator.py
-│   └── idiom_evaluator.py
-├── prompts/
-│   ├── euphemism_prompts.py
-│   ├── sarcasm_prompts.py
-│   └── idiom_prompts.py
+│   └── zh_idiom_evaluator.py
 ├── models/
 │   ├── model_configs.py
 │   └── api_clients.py
